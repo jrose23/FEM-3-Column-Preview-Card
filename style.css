@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --med-cyan: hsl(184, 100%, 22%);
+    --dark-cyan: hsl(179, 100%, 13%);
+    --trans-white: hsla(0, 0%, 100%, 0.75);
+    --lt-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background-color: var(--lt-gray);
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 920px;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-block {
+    padding: 50px;
+    color: var(--trans-white);
+}
+
+.card-block .icon {
+    height: 40px;
+}
+
+.card-block h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.67rem;
+    color: var(--lt-gray);
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.card-block p {
+    margin-bottom: 80px;
+    line-height: 1.625;
+}
+
+.btn {
+    background-color: var(--lt-gray);
+    padding: 12px 32px;
+    border-radius: 47px;
+    border: 2px solid var(--lt-gray);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid var(--lt-gray);
+    color: var(--lt-gray);
+}
+
+.btn-orange {
+    color: var(--bright-orange);
+}
+
+.btn-cyan-md {
+    color: var(--med-cyan);
+}
+
+.btn-cyan-drk {
+    color: var(--dark-cyan);
+}
+
+.card-block-1{
+    background-color: var(--bright-orange);
+}
+
+.card-block-2{
+    background-color: var(--med-cyan);
+}
+
+.card-block-3{
+    background-color: var(--dark-cyan);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 30px;
+    }
+    .card {
+        grid-template-columns: 1fr;
+    }
+    .card-block h1 {
+        margin: 20px 0;
+    }
+    .card-block p {
+        margin-bottom: 20px;
+    }
+}
