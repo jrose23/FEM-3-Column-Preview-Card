@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Built with
 
-- HTML4
+- HTML5
 - CSS3
 - CSS Grid
 - Mobile-first workflow
