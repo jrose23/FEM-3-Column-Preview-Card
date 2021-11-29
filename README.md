@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://61a4fe25a8fdcd3942ef042d--upbeat-euclid-30ca2c.netlify.app/](https://61a4fe25a8fdcd3942ef042d--upbeat-euclid-30ca2c.netlify.app/)
 
 ### Built with
 
