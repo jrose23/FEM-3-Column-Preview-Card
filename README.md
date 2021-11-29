@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-solution-css-grid-0O4gByAaD](https://www.frontendmentor.io/solutions/3-column-preview-card-solution-css-grid-0O4gByAaD)
 - Live Site URL: [https://61a4fe25a8fdcd3942ef042d--upbeat-euclid-30ca2c.netlify.app/](https://61a4fe25a8fdcd3942ef042d--upbeat-euclid-30ca2c.netlify.app/)
 
 ### Built with
